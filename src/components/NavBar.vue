@@ -3,7 +3,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
     <div class="container m-0">
-      <a class="navbar-brand" href="#!"><img src="../assets/logoApdent.png" alt="Logo"></a>
+      <router-link to="/"><a class="navbar-brand" href="#!"><img src="../assets/logoApdent.png" alt="Logo"></a></router-link>
       <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
         data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -12,25 +12,22 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#!">Home</a>
+            <router-link class="nav-link" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#!">Despre Noi</a>
+            <router-link class="nav-link" to="/about">Despre Noi</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#!">Servicii</a>
+            <router-link class="nav-link" to="/about">Servicii</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#!">Preturi</a>
+            <router-link class="nav-link" to="/about">Preturi</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#!">About</a>
+            <router-link class="nav-link" to="/about">Echipa</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#!">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#!">Contact</a>
+            <router-link class="nav-link" to="/about">Contact</router-link>
           </li>
           <button class="btn btn-light programare">Programeaza-te</button>
         </ul>

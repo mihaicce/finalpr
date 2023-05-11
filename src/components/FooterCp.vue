@@ -1,5 +1,5 @@
 <template>
-  <footer class="d-flex border align-items-center mask-custom shadow-0 colorfooter bg-custom">
+  <footer class="d-flex align-items-center mask-custom shadow-0 colorfooter bg-custom">
     <div class="text-black-80 text-left ps-5 gap-3 w-75">
       &#169; 2023 APdent Toate drepturile rezervate. Designed by Mihai Cocea.
     </div>
