@@ -6,7 +6,7 @@
     <i class="fa-solid fa-toolbox fa-5x pt-5"></i>
       <div class="card-body">
         <h5 class="card-title">Plan de Tratament</h5>
-        <p class="card-text">Intocmirea unui plan de tratament stomatologic este esențială pentru a asigura o abordare personalizată și eficientă a problemelor dentare. Dentistul evaluează starea dentară, diagnozează afecțiunile, stabilește obiectivele și dezvoltă un plan adaptat. Pacientului i se explică planul propus, inclusiv costurile și etapele, iar apoi se inițiază tratamentul, cu monitorizare și ajustări ulterioare. Acest proces asigură o îngrijire stomatologică de calitate și rezultate optime.</p>
+        <p class="card-text">Intocmirea unui plan de tratament stomatologic este esențială pentru a asigura o abordare personalizată și eficientă a problemelor dentare. Medicul stomatolog evaluează starea dentară, diagnosticheazaează afecțiunile, stabilește obiectivele și dezvoltă un plan adaptat. Pacientului i se explică planul propus, inclusiv costurile și etapele, iar apoi se inițiază tratamentul, cu monitorizare și ajustări ulterioare. Acest proces asigură o îngrijire stomatologică de calitate și rezultate optime.</p>
       </div>
     </div>
   </div>

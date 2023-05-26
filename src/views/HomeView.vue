@@ -2,6 +2,7 @@
   <div class="pad">
     <CarouselBstrp/>
     <TarjetasDescriptivas/>
+    <DescripcionHome/>
     <TarjetasIntereactivas/>
 
   </div>
@@ -11,13 +12,15 @@
 import CarouselBstrp from '../components/CarouselBstrp.vue';
 import TarjetasIntereactivas from '../components/TarjetasInteractivas.vue';
 import TarjetasDescriptivas from '../components/TarjetasDescriptivas.vue';
+import DescripcionHome from '../components/DescripcionHome.vue';
 
 export default {
   name: 'HomeView',
   components: {
     CarouselBstrp, 
     TarjetasIntereactivas,
-    TarjetasDescriptivas, 
+    TarjetasDescriptivas,
+    DescripcionHome, 
 
 }
 }

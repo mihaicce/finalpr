@@ -3,7 +3,7 @@
     <div class="background-texture"></div>
 
     <section class="carousel">
-      <h2 class="categories__title">SERVICII</h2>
+      <h2 class="categories__title opacity-75">SERVICII</h2>
       <div class="carousel__container">
         <div class="carousel-item">
           <img
@@ -229,5 +229,9 @@ body {
 .carousel-item__details--subtitle {
   color: #fff;
   margin: 5px 0;
+}
+
+h2 {
+  background-color: white;
 }
 </style>

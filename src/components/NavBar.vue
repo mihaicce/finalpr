@@ -29,7 +29,9 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/about">Contact</router-link>
           </li>
-          <button class="btn btn-light programare">Programeaza-te</button>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/Programare"><button class="btn btn-light programare">Programeaza-te</button></router-link>
+          </li>
         </ul>
       </div>
     </div>
