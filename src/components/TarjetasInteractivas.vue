@@ -13,7 +13,7 @@
           />
           <div class="carousel-item__details">
             <h5 class="carousel-item__details--title">Implantologie</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
+            <h6 class="carousel-item__details--subtitle">Un implant dentar este o procedură chirurgicală utilizată pentru a înlocui un dinte lipsă sau deteriorat. Este o metodă modernă și eficientă de înlocuire a unui dinte natural. Un implant dentar constă în plasarea unui șurub din titan sau aliaj de titan în osul maxilar sau mandibular, care va acționa ca o rădăcină artificială. După integrarea implantului în os (osseointegrare), acesta servește ca suport pentru montarea unei coroane dentare artificiale, oferind astfel o soluție durabilă și estetică pentru înlocuirea unui dinte natural lipsă.</h6>
           </div>
         </div>
         <div class="carousel-item">
@@ -30,7 +30,7 @@
         <div class="carousel-item">
           <img
             class="carousel-item__img"
-            src="https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            src="../assets/endo.jpg"
             alt="people"
           />
           <div class="carousel-item__details">
@@ -38,14 +38,14 @@
               <span class="fas fa-play-circle"></span>
               <span class="fas fa-plus-circle"></span>
             </div>
-            <h5 class="carousel-item__details--title">Descriptive Title</h5>
+            <h5 class="carousel-item__details--title">Endodontie</h5>
             <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
           </div>
         </div>
         <div class="carousel-item">
           <img
             class="carousel-item__img"
-            src="https://images.pexels.com/photos/1071882/pexels-photo-1071882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            src="../assets/protetica.jpg"
             alt="people"
           />
           <div class="carousel-item__details">
@@ -53,14 +53,14 @@
               <span class="fas fa-play-circle"></span>
               <span class="fas fa-plus-circle"></span>
             </div>
-            <h5 class="carousel-item__details--title">Descriptive Title</h5>
+            <h5 class="carousel-item__details--title">Protetica</h5>
             <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
           </div>
         </div>
         <div class="carousel-item">
           <img
             class="carousel-item__img"
-            src="https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            src="../assets/paro.jpg"
             alt="people"
           />
           <div class="carousel-item__details">
@@ -68,38 +68,7 @@
               <span class="fas fa-play-circle"></span>
               <span class="fas fa-plus-circle"></span>
             </div>
-            <h5 class="carousel-item__details--title">Descriptive Title</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/6945/sunset-summer-golden-hour-paul-filitchkin.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <div class="controls">
-              <span class="fas fa-play-circle"></span>
-              <span class="fas fa-plus-circle"></span>
-            </div>
-            <h5 class="carousel-item__details--title">Descriptive Title</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/1964471/pexels-photo-1964471.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <div class="controls">
-              <span class="fas fa-play-circle"></span>
-              <span class="fas fa-plus-circle"></span>
-            </div>
-            <h5 class="carousel-item__details--title">Descriptive Title</h5>
+            <h5 class="carousel-item__details--title">Parodontologie</h5>
             <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
           </div>
         </div>
@@ -165,10 +134,11 @@ body {
 }
 
 .categories__title {
- color: rgb(77, 55, 102);
-  font-size: 28px;
-  position: absolute;
-  padding-left: 30px;
+  color: black;
+  font-size: 30px;
+  /* position: absolute; */
+  text-align: center;
+  /* padding-left: 30px; */
 }
 
 .carousel-item {
@@ -246,6 +216,10 @@ body {
   color: #2ecc71;
   background-color: white;
 }
+
+/* .carousel-item__details h6 {
+  font-size: 0.6rem;
+} */
 
 .carousel-item__details .controls {
   padding-top: 180px;

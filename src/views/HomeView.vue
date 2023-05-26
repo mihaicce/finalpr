@@ -1,6 +1,7 @@
 <template>
   <div class="pad">
     <CarouselBstrp/>
+    <TarjetasDescriptivas/>
     <TarjetasIntereactivas/>
 
   </div>
@@ -9,12 +10,14 @@
 <script>
 import CarouselBstrp from '../components/CarouselBstrp.vue';
 import TarjetasIntereactivas from '../components/TarjetasInteractivas.vue';
+import TarjetasDescriptivas from '../components/TarjetasDescriptivas.vue';
 
 export default {
   name: 'HomeView',
   components: {
     CarouselBstrp, 
-    TarjetasIntereactivas, 
+    TarjetasIntereactivas,
+    TarjetasDescriptivas, 
 
 }
 }
