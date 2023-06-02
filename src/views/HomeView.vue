@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import CarouselBstrp from '../components/CarouselBstrp.vue';
 import TarjetasIntereactivas from '../components/TarjetasInteractivas.vue';
+import CarouselBstrp from '../components/CarouselBstrp.vue';
 import TarjetasDescriptivas from '../components/TarjetasDescriptivas.vue';
 import DescripcionHome from '../components/DescripcionHome.vue';
 
