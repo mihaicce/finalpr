@@ -15,19 +15,19 @@
             <router-link class="nav-link" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/about">Despre Noi</router-link>
+            <router-link class="nav-link" to="/desprenoi">Despre Noi</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/about">Servicii</router-link>
+            <router-link class="nav-link" to="/servicii">Servicii</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/about">Preturi</router-link>
+            <router-link class="nav-link" to="/preturi">Preturi</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/about">Echipa</router-link>
+            <router-link class="nav-link" to="/echipa">Echipa</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/about">Contact</router-link>
+            <router-link class="nav-link" to="/contact">Contact</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/Programare"><button class="btn btn-light programare">Programeaza-te</button></router-link>

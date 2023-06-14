@@ -27,16 +27,17 @@
           <input type="text" class="form-control" v-model="telefon" placeholder="Telefon" aria-label="First name">
         </div>
         <div class="col-lg-3 col-md-12 opacity-75">
-          <select id="inputState" class="form-select">
+          <select id="inputState" class="form-select" v-model="selectedOra">
             <option selected>Alege ora</option>
-            <option>8AM-9AM</option>
+            <option v-for="hora in horas" :key="hora.hora" :disabled="hora.deshabilitada">{{ hora.hora }}</option>
+            <!-- <option>8AM-9AM</option>
             <option>9AM-10AM</option>
             <option>10AM-11AM</option>
             <option>11AM-12AM</option>
             <option>12AM-1PM</option>
             <option>1PM-2PM</option>
             <option>2PM-3PM</option>
-            <option>3PM-4PM</option>
+            <option>3PM-4PM</option> -->
           </select>
         </div>
       </div>
@@ -58,8 +59,22 @@
 
 <script setup >
 import DatePicker from '../components/DatePicker.vue';
-import {ref } from "vue"
+import {ref} from "vue"
 import axios from "axios" 
+import Swal from 'sweetalert2';
+
+let selectedOra = ref("");
+// let horasDeshabilitadas = ref([]);
+
+let horas = ref([
+  { hora: "8AM-9AM", deshabilitada: false },
+  { hora: "9AM-10AM", deshabilitada: false },
+  { hora: "10AM-11AM", deshabilitada: false },
+  { hora: "10AM-12AM", deshabilitada: false },
+  { hora: "12AM-13AM", deshabilitada: false },
+  { hora: "13AM-14AM", deshabilitada: false },
+  { hora: "14AM-15AM", deshabilitada: false },
+]);
 
  let id = ref(null)
  let nume = ref("")
@@ -83,10 +98,31 @@ function handleFechaSeleccionada(fecha){
         nume: nume.value,
         prenume: prenume.value,
         telefon: telefon.value,
-        ora: "esto es hora",
+        ora: selectedOra.value,
         motiv: motiv.value,
-        data: data.value
+        data: data.value,
     })
+//     horasDeshabilitadas.value.push(selectedOra.value);
+//     const horaSeleccionada = horas.value.find((hora) => hora.hora === selectedOra.value);
+// if (horaSeleccionada) {
+//   horaSeleccionada.deshabilitada = true;
+// }
+
+    nume.value= ""
+    prenume.value= ""
+    telefon.value= ""
+    selectedOra.value= ""
+    motiv.value= ""
+    data.value= ""
+
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      title: 'Te-ai programat cu SUCCES!',
+      showConfirmButton: false,
+      timer: 1500
+    });
+
     // location.reload()
    }catch(error){
       console.log(error)
@@ -94,8 +130,6 @@ function handleFechaSeleccionada(fecha){
   
  }
 
-
-    
 </script>
 
 <style lang="scss">
